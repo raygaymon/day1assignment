@@ -51,8 +51,6 @@ public class App
                 } else {
                 System.out.println("Incorrect item index");
             }
-            }
-        } 
              if ("checkout".equals(op)) {
                 System.out.println ("Proceeding to payment");
                 break;
