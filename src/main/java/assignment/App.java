@@ -1,5 +1,9 @@
 package assignment;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 /**
  * Hello world!
  *
@@ -8,9 +12,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        
-        
-    
         List<String> cart = new ArrayList<>();
         String op = "";
         String fruit= "";
@@ -47,11 +48,11 @@ public class App
                     cart.remove(cart.get(a-1));
                     System.out.println(fruit + " has been removed");
                     break;
-                }
-            }
-        } else {
+                } else {
                 System.out.println("Incorrect item index");
             }
+            }
+        } 
              if ("checkout".equals(op)) {
                 System.out.println ("Proceeding to payment");
                 break;
